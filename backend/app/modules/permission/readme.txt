@@ -1,0 +1,1 @@
+Utalized ng-permission module and working on it to customize it with defined role according to our requirment.
