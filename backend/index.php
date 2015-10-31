@@ -41,12 +41,16 @@
 <!--<body class="sidebar_main_open sidebar_main_swipe">
 -->
 <!-- Main Angular scripts -->
-<script src="../vendor/angular_v1.4.4/angular.min.js"></script>
-<script src="../vendor/ui-router/angular-ui-router.js"></script>
-<script src="app/app.js"></script>
+<!--<script src="../vendor/angular_v1.4.4/angular.min.js"></script>
+-->
+    <script src="../vendor/angular_v1.4.4/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+
+<!--    <script src="../vendor/ui-router/angular-ui-router.js"></script>
+-->
 
     <!-- Angular Dateien zusammenfassen und einbinden -->
-<script type="text/javascript" src="virtual_javascript.php"></script>
+<script type="text/javascript" src="virtual_javascript.php"></script>-->
 
     <!-- main header -->
     <header id="header_main">
@@ -59,11 +63,12 @@
     </aside><!-- main sidebar end -->
 
     <div id="page_content">
-        <div id="page_content_inner" ui-view>
+        <div id="page_content_inner" ng-view>
 
-            <?php require_once('app/layout/content.html');?>
-            <a href="<?php echo $pathbck; ?>login.php">Login_________</a>
-            <a href="user/login">Sign</a>
+
+          <!--  <?php /*require_once('app/layout/content.html');*/?>
+            <a href="<?php /*echo $pathbck; */?>login.php">Login_________</a>
+            <a href="user/login">Sign</a>-->
         </div>
     </div>
 

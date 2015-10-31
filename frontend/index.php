@@ -4,8 +4,8 @@
 
 ?>
 <!doctype html>
-<!--[if lte IE 9]> <html class="lte-ie9" lang="en" ng-app="magazin"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en" ng-app="magazin"> <!--<![endif]-->
+<!--[if lte IE 9]> <html class="lte-ie9" lang="en" ng-app="magazin.frontend"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en" ng-app="magazin.frontend"> <!--<![endif]-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
@@ -42,10 +42,16 @@
 <!--<body class="sidebar_main_open sidebar_main_swipe">
 -->
 <!-- Main Angular scripts -->
-<script src="vendor/angular_v1.4.4/angular.min.js"></script>
-<script src="vendor/ui-router/angular-ui-router.js"></script>
+<!--<script src="vendor/angular_v1.4.4/angular.min.js"></script>
+-->
+    <script src="../vendor/angular_v1.4.4/angular.js"></script>
 
-<!-- Angular Dateien zusammenfassen und einbinden -->
+    <!--<script src="vendor/ui-router/angular-ui-router.js"></script>
+    -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>
+
+
+    <!-- Angular Dateien zusammenfassen und einbinden -->
 <script type="text/javascript" src="virtual_javascript.php"></script>
 
     <!-- main header -->
@@ -59,9 +65,11 @@
     </aside><!-- main sidebar end -->
 
     <div id="page_content">
-        <div id="page_content_inner" ui-view>
+<!--        <div id="page_content_inner" ui-view>
+-->
+        <div id="page_content_inner" ng-view>
 
-            <?php require_once('app/layout/content.html');?>
+           <!-- --><?php /*require_once('app/layout/content.html');*/?>
         </div>
     </div>
 
@@ -89,13 +97,13 @@
         })();
     </script>
 
-    <!-- common functions -->
-    <script src="<?php echo $path; ?>assets/js/common.min.js"></script>
-    <!-- uikit functions -->
-    <script src="<?php echo $path; ?>assets/js/uikit_custom.min.js"></script>
-    <!-- altair common functions/helpers -->
-    <script src="<?php echo $path; ?>assets/js/altair_admin_common.min.js"></script>
 
+<!-- common functions -->
+<script src="<?php echo $path; ?>assets/js/common.min.js"></script>
+<!-- uikit functions -->
+<script src="<?php echo $path; ?>assets/js/uikit_custom.min.js"></script>
+<!-- altair common functions/helpers -->
+<script src="<?php echo $path; ?>assets/js/altair_admin_common.min.js"></script>
 
 
     <script>

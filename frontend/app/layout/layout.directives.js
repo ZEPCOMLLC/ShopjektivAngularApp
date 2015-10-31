@@ -27,6 +27,6 @@ function pageTitle($rootScope, $timeout) {
  * Pass all functions into module
  */
 angular
-    .module('magazin')
+    .module('magazin.frontend')
     .directive('pageTitle', pageTitle)
     

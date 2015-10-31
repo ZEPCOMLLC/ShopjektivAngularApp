@@ -8,6 +8,8 @@
 /*(function () {
     angular.module('magazin', ['ui.router','test'])
 });*/
+/*
+    "use strict";
+*/
 
-
-angular.module('magazin', ['ui.router','altairApp']);
+     angular.module('magazin', ['ngRoute'])
