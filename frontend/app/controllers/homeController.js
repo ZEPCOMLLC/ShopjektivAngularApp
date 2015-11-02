@@ -4,7 +4,9 @@ angular
         '$scope',
         '$rootScope',
         'utils',
-        function ($scope,$rootScope,utils) {
+        'apiConnector',
+         '$state',
+        function ($scope,$rootScope,utils,apiConnector,$state) {
 
             $scope.registerFormActive = false;
 
@@ -49,6 +51,9 @@ angular
             $scope.loginHelp = function($event) {
                 $event.preventDefault();
                 utils.card_show_hide($login_card,undefined,login_help_show,undefined);
+                $state.go('dashboard');
+
+
             };
 
             $scope.backToLogin = function($event) {

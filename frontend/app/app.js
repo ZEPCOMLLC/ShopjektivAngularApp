@@ -15,13 +15,13 @@ angular.module('magazin.frontend', ['ngRoute']);
 angular.module('magazin.frontend')
     .run([
         '$rootScope',
-        '$state',
         '$stateParams',
+        '$state',
         '$http',
         '$window',
         '$timeout',
         'variables',
-        function ($rootScope, $state, $stateParams,$http,$window, $timeout,variables ) {
+        function ($rootScope,$stateParams, $state, $http,$window, $timeout,variables ) {
 
             $rootScope.$state = $state;
             $rootScope.$stateParams = $stateParams;

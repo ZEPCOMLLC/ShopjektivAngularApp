@@ -12,7 +12,7 @@
   * POST
   *     
   */ 
-$app->post('/login', function() use ($app) {    
+$app->post('/login', function() use ($app) {
 	
    // init ORM
    ORM::configure('mysql:host='.DB_HOST.';dbname='.DB_NAME.'');
@@ -95,8 +95,6 @@ $app->post('/login', function() use ($app) {
 	
 
 });
-
-
 
 
 

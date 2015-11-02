@@ -1,3 +1,4 @@
+'use strict';
 
 angular
     .module('magazin.frontend')
@@ -17,6 +18,17 @@ angular
                     url: "",
                     templateUrl: 'app/views/home.html',
                     controller:'homeController'
+                })
+                .state("login", {
+                    /* parent : true ,*/
+                    url: "/login",
+                    templateUrl: 'app/views/home.html',
+                    controller:'homeController'
+                });
+            $stateProvider.state("dashboard", {
+                    /* parent : true ,*/
+                    url: "/dashboard",
+                    templateUrl: 'app/views/content.html',
                 })
 
 

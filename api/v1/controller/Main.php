@@ -17,7 +17,7 @@ $app->get('/', function() use ($app)
   
   $response = array();
 	
-  $response['message'] = "Hallo!";
+    $response['message'] = "Hallo!";
 	$response['error'] = false;
 	
   echoResponse(200, $response);
