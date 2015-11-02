@@ -2,32 +2,154 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d68a68-16cd-4d6f-9f2e-e217ac501d41" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\curd\crudApp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\permission\permissionApp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\permission\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\permission\services\permissionServices.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\roles\roleApp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\test\test.config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\test\test.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\test\testApp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\test\testController.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\config\userRoutings.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\controllers\homeController.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\controllers\loginController.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\controllers\logoutController.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\controllers\registerController.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\loginView.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\userApp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\view\login.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\modules\user\view\register.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/app/app.js" afterPath="$PROJECT_DIR$/backend/app/app.js" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\curd\crudApp.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\permission\permissionApp.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\permission\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\permission\services\permissionServices.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\roles\roleApp.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\test\test.config.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\test\test.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\test\testApp.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\test\testController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\config\userRoutings.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\controllers\homeController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\controllers\loginController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\controllers\logoutController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\controllers\registerController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\loginView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\userApp.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\view\login.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\modules\user\view\register.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\frontend\app\config\routes.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\frontend\index.php" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\accordionView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\buttonsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\cardsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\colorsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\commonView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\dropdownsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\dynamic_gridView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\gridView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\iconsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\listsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\modalView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\nestableController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\nestableView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\notificationsController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\notificationsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\preloadersController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\preloadersView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\sortableController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\sortableView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\tablesView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\tables_examplesView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\tabsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\tooltipsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\components\typographyView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\dashboard\dashboardController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\dashboard\dashboardView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\ecommerce\productController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\ecommerce\product_detailsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\ecommerce\product_editView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\ecommerce\products_gridController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\ecommerce\products_gridView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\ecommerce\products_listController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\ecommerce\products_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\advancedController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\advancedView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\file_uploadController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\file_uploadView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\regularController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\regularView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\validationController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\validationView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\wizardController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\wizardView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\wysiwyg_editorController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\forms\wysiwyg_editorView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\autocompleteController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\autocompleteView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\calendarController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\calendarView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\colorpickerView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\comboboxController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\comboboxView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\datepickerController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\datepickerView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\datetimepickerController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\datetimepickerView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\dropdown_listController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\dropdown_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\masked_inputController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\masked_inputView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\menuController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\menuView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\multiselectController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\multiselectView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\numeric_textboxController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\numeric_textboxView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\panelbarView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\timepickerView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\toolbarController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\toolbarView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\windowController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\kendoUI\windowView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\blankView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\chatController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\chatView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\contact_listController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\contact_listView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\error_404View.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\error_500View.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\helpController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\helpView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\invoicesController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\invoicesView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\invoices_addView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\invoices_detailView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\loginController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\loginView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\mailboxController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\mailboxView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\notesController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\notesView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\scrum_boardController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\scrum_boardView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\settingsController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\settingsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\snippetsController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\snippetsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\todoController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\todoView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\user_editController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\user_editView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\user_profileController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\pages\user_profileView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\calendarController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\calendarView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\chartsController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\chartsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\code_editorController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\code_editorView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\datatablesController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\datatablesView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\gantt_chartController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\gantt_chartView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\google_mapsController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\google_mapsView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\tablesorterController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\tablesorterView.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\vector_mapsController.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app\components\plugins\vector_mapsView.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ShopjektivAngularApp.iml" afterPath="$PROJECT_DIR$/.idea/ShopjektivAngularApp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/app.js" afterPath="$PROJECT_DIR$/frontend/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/app/layout/content.html" afterPath="$PROJECT_DIR$/backend/app/layout/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/app/layout/header.html" afterPath="$PROJECT_DIR$/backend/app/layout/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/layout/header.html" afterPath="$PROJECT_DIR$/frontend/app/layout/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/index.php" afterPath="$PROJECT_DIR$/backend/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/index.php" afterPath="$PROJECT_DIR$/frontend/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/layout/layout.directives.js" afterPath="$PROJECT_DIR$/frontend/app/layout/layout.directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/controllers/homeController.js" afterPath="$PROJECT_DIR$/frontend/app/controllers/homeController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/layout/sidebar_main.html" afterPath="$PROJECT_DIR$/frontend/app/layout/sidebar_main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ShopjektivAngularApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,86 +174,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/app/app.js">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homeController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/app/controllers/homeController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.4827585" vertical-offset="574" max-vertical-offset="1309">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="altair_admin_common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/assets/js/altair_admin_common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20808">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.0740743" vertical-offset="315" max-vertical-offset="2329">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
-                <marker date="1446278177728" expanded="true" signature="2574:2600" placeholder="..." />
-                <marker date="1446278177728" expanded="true" signature="2637:2736" placeholder="..." />
-                <marker date="1446278177728" expanded="true" signature="22798:22863" placeholder="..." />
-                <marker date="1446278177728" expanded="true" signature="42789:42801" placeholder="..." />
+                <marker date="1446420454485" expanded="true" signature="2177:3355" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/index.php">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/v1/config/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="102" max-vertical-offset="1938">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6032172" vertical-offset="829" max-vertical-offset="1479">
-              <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.418182" vertical-offset="1483" max-vertical-offset="2227">
-              <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.3090909" vertical-offset="0" max-vertical-offset="1411">
-              <caret line="1" column="18" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/assets/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="179571" max-vertical-offset="537965">
-              <caret line="10576" column="43" selection-start-line="10576" selection-start-column="43" selection-end-line="10576" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.20481928" vertical-offset="0" max-vertical-offset="581">
+              <caret line="9" column="35" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -139,38 +198,60 @@
       </file>
     </leaf>
   </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
+    <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/backend/app/layout/header.html" />
-        <option value="$PROJECT_DIR$/backend/app/layout/content.html" />
-        <option value="$PROJECT_DIR$/backend/app/config/routing.js" />
-        <option value="$PROJECT_DIR$/backend/app/views/home.html" />
-        <option value="$PROJECT_DIR$/backend/app/app.js" />
-        <option value="$PROJECT_DIR$/backend/app/config/routes.js" />
-        <option value="$PROJECT_DIR$/frontend/app/app.js" />
-        <option value="$PROJECT_DIR$/backend/app/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/frontend/app/controllers/homeController.js" />
-        <option value="$PROJECT_DIR$/backend/index.php" />
+        <option value="$PROJECT_DIR$/frontend/app/modules/angular-autosize.js" />
+        <option value="$PROJECT_DIR$/vendor/altair_v2.0.0/admin/html/src/gulpfile.js" />
+        <option value="$PROJECT_DIR$/frontend/app/services/factory.js" />
+        <option value="$PROJECT_DIR$/frontend/app/directives/directive.js" />
+        <option value="$PROJECT_DIR$/frontend/bower.json" />
+        <option value="$PROJECT_DIR$/frontend/npm-debug.log" />
+        <option value="$PROJECT_DIR$/frontend/gulpfile.js" />
+        <option value="$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/bower.json" />
+        <option value="$PROJECT_DIR$/frontend/app/config/constant.js" />
+        <option value="$PROJECT_DIR$/frontend/app/config/oc_lazy_load.js" />
+        <option value="$PROJECT_DIR$/frontend/app/filters/filters.js" />
+        <option value="$PROJECT_DIR$/frontend/app/services/service.js" />
+        <option value="$PROJECT_DIR$/frontend/app/app.js" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/sidebar_main.html" />
         <option value="$PROJECT_DIR$/frontend/app/layout/header.html" />
-        <option value="$PROJECT_DIR$/frontend/app/layout/layout.directives.js" />
-        <option value="$PROJECT_DIR$/frontend/app/config/routes.js" />
+        <option value="$PROJECT_DIR$/frontend/app/shared/header/headerController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/shared/main_sidebar/main_sidebarController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/shared/style_switcher/style_switcher.js" />
+        <option value="$PROJECT_DIR$/frontend/app/config/states.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/components/nestableController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/components/notificationsController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/components/preloadersController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/components/sortableController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/dashboard/dashboardController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/plugins/calendarController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/plugins/chartsController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/plugins/code_editorController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/plugins/datatablesController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/plugins/gantt_chartController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/plugins/google_mapsController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/plugins/tablesorterController.js" />
+        <option value="$PROJECT_DIR$/frontend/app/components/plugins/vector_mapsController.js" />
         <option value="$PROJECT_DIR$/frontend/index.php" />
-        <option value="$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/bower.json" />
       </list>
     </option>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1378" />
-    <option name="height" value="745" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -181,6 +262,9 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -195,7 +279,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,55 +321,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,9 +338,36 @@
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShopjektivAngularApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShopjektivAngularApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,14 +377,20 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xempp\htdocs\ShopjektivAngularApp\frontend\app\views\assets\js" />
-      <recent name="D:\xempp\htdocs\ShopjektivAngularApp\frontend\app\config" />
-      <recent name="D:\xempp\htdocs\ShopjektivAngularApp\frontend\app\controllers" />
-      <recent name="D:\xempp\htdocs\ShopjektivAngularApp\frontend\app\views" />
-      <recent name="D:\xempp\htdocs\ShopjektivAngularApp\backend\app\views" />
+      <recent name="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\angular\app" />
+      <recent name="E:\xampp\htdocs\ShopjektivAngularApp\frontend\app" />
+      <recent name="E:\xampp\htdocs\ShopjektivAngularApp\frontend\app\config" />
+      <recent name="E:\xampp\htdocs\ShopjektivAngularApp\frontend" />
+      <recent name="E:\xampp\htdocs\ShopjektivAngularApp\vendor\altair_v2.0.0\admin\html\dist\bower_components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\xampp\htdocs\ShopjektivAngularApp\frontend\app\config" />
+      <recent name="E:\xampp\htdocs\ShopjektivAngularApp\backend" />
     </key>
   </component>
   <component name="RunManager">
@@ -340,10 +408,18 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -362,30 +438,52 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1378" height="745" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32232705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58425194" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.296063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40748897" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41434845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.58425194" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.62992126" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41434845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -405,319 +503,413 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/v1/config/database.php">
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.factory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26288658" vertical-offset="0" max-vertical-offset="582">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.21030928" vertical-offset="0" max-vertical-offset="2499">
+          <caret line="6" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="141" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/.htaccess">
+    <entry file="file://$PROJECT_DIR$/frontend/app/services/factory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/dist/assets/css/main.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="386">
-          <caret line="0" column="36779" selection-start-line="0" selection-start-column="36779" selection-end-line="0" selection-end-column="36779" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/assets/less/components/timeline.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90229887" vertical-offset="689" max-vertical-offset="2363">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/assets/less/themes/theme_b.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048850574" vertical-offset="3077" max-vertical-offset="4250">
-          <caret line="182" column="48" selection-start-line="182" selection-start-column="48" selection-end-line="182" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/dist/components_icons.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90555555" vertical-offset="2343" max-vertical-offset="17000">
-          <caret line="157" column="56" selection-start-line="157" selection-start-column="56" selection-end-line="157" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5106007" vertical-offset="161551" max-vertical-offset="200991">
-          <caret line="9520" column="72" selection-start-line="9520" selection-start-column="72" selection-end-line="9520" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app/layout/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="272">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5805921" vertical-offset="2350" max-vertical-offset="3417">
-          <caret line="159" column="3" selection-start-line="159" selection-start-column="3" selection-end-line="159" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27960527" vertical-offset="0" max-vertical-offset="608">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#238#356#0" expanded="false" />
-            <element signature="e#395#2968#0" expanded="false" />
-            <element signature="e#2979#3125#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/virtual_javascript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37258348" vertical-offset="1675" max-vertical-offset="2312">
-          <caret line="111" column="20" selection-start-line="111" selection-start-column="20" selection-end-line="111" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.033464566" vertical-offset="0" max-vertical-offset="2516">
+          <caret line="1" column="5" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/virtual_javascript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.93436295" vertical-offset="1726" max-vertical-offset="2312">
+          <caret line="130" column="2" selection-start-line="130" selection-start-column="2" selection-end-line="130" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app/app.js">
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/assets/js/common.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="14" column="43" selection-start-line="14" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.12014134" vertical-offset="0" max-vertical-offset="566">
+          <caret line="4" column="11712" selection-start-line="4" selection-start-column="11710" selection-end-line="4" selection-end-column="11712" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app/views/home.html">
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/assets/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23367697" vertical-offset="0" max-vertical-offset="582">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33552632" vertical-offset="0" max-vertical-offset="608">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.94276094" vertical-offset="307990" max-vertical-offset="408629">
+          <caret line="18150" column="29" selection-start-line="18150" selection-start-column="29" selection-end-line="18150" selection-end-column="29" />
           <folding>
-            <element signature="n#!!block;n#HomeController#0" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.103690684" vertical-offset="757" max-vertical-offset="1394">
-          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/layout/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="1214" max-vertical-offset="3247">
-          <caret line="82" column="76" selection-start-line="82" selection-start-column="76" selection-end-line="82" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/app/layout/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15817223" vertical-offset="964" max-vertical-offset="2601">
-          <caret line="104" column="141" selection-start-line="104" selection-start-column="141" selection-end-line="104" selection-end-column="141" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#a#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/layout/layout.directives.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/components/pages/loginController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6551723" vertical-offset="657" max-vertical-offset="1309">
-          <caret line="50" column="21" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.5" vertical-offset="1297" max-vertical-offset="1802">
-          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.61445785" vertical-offset="187" max-vertical-offset="1700">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding>
+            <element signature="e#413#499#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/index.php">
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/dist/assets/js/pages/forms_wizard.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8113208" vertical-offset="710" max-vertical-offset="2108">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="493">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="18598">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/dist/assets/js/altair_admin_common.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
-          <caret line="0" column="22428" selection-start-line="0" selection-start-column="22428" selection-end-line="0" selection-end-column="22428" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/assets/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="179571" max-vertical-offset="537965">
-          <caret line="10576" column="43" selection-start-line="10576" selection-start-column="43" selection-end-line="10576" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4827585" vertical-offset="574" max-vertical-offset="1309">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3090909" vertical-offset="0" max-vertical-offset="1411">
-          <caret line="1" column="18" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="0" column="222" selection-start-line="0" selection-start-column="222" selection-end-line="0" selection-end-column="222" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/assets/js/altair_admin_common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20808">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.8181818" vertical-offset="2958" max-vertical-offset="20808">
+          <caret line="192" column="26" selection-start-line="192" selection-start-column="26" selection-end-line="192" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/bower_components/jquery-bez/README.md">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5608108" vertical-offset="138" max-vertical-offset="1564">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.oc_lazy_load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11908932" vertical-offset="0" max-vertical-offset="5831">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14212328" vertical-offset="478" max-vertical-offset="3366">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/config/oc_lazy_load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.091726616" vertical-offset="0" max-vertical-offset="556">
+          <caret line="337" column="7" selection-start-line="337" selection-start-column="7" selection-end-line="337" selection-end-column="7" />
           <folding>
-            <marker date="1446278177728" expanded="true" signature="2574:2600" placeholder="..." />
-            <marker date="1446278177728" expanded="true" signature="2637:2736" placeholder="..." />
-            <marker date="1446278177728" expanded="true" signature="22798:22863" placeholder="..." />
-            <marker date="1446278177728" expanded="true" signature="42789:42801" placeholder="..." />
+            <element signature="e#53#18554#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/config/constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028006589" vertical-offset="0" max-vertical-offset="607">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="884">
+          <caret line="27" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32749563" vertical-offset="0" max-vertical-offset="18598">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/filters/filters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22405271" vertical-offset="0" max-vertical-offset="935">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/services/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94276094" vertical-offset="494" max-vertical-offset="1156">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060606062" vertical-offset="355" max-vertical-offset="1105">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.464286" vertical-offset="0" max-vertical-offset="1921">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11971831" vertical-offset="0" max-vertical-offset="568">
+          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/sidebar_main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18836565" vertical-offset="0" max-vertical-offset="2890">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/shared/header/headerView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17068273" vertical-offset="0" max-vertical-offset="2227">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/directives/directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.056013178" vertical-offset="0" max-vertical-offset="1071">
+          <caret line="2" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#103#802#0" expanded="false" />
+            <element signature="e#880#1524#0" expanded="false" />
+            <element signature="e#1572#2411#0" expanded="false" />
+            <element signature="e#2462#3641#0" expanded="false" />
+            <element signature="e#3692#4784#0" expanded="false" />
+            <element signature="e#4882#5118#0" expanded="false" />
+            <element signature="e#5176#6303#0" expanded="false" />
+            <element signature="e#6371#10984#0" expanded="false" />
+            <element signature="e#11043#12833#0" expanded="false" />
+            <element signature="e#12892#14772#0" expanded="false" />
+            <element signature="e#14831#16895#0" expanded="false" />
+            <element signature="e#16966#18878#0" expanded="false" />
+            <element signature="e#18940#19380#0" expanded="false" />
+            <element signature="e#19455#20193#0" expanded="false" />
+            <element signature="e#20268#23851#0" expanded="false" />
+            <element signature="e#23930#27277#0" expanded="false" />
+            <element signature="e#27342#28466#0" expanded="false" />
+            <element signature="e#28526#29454#0" expanded="false" />
+            <element signature="e#29511#33149#0" expanded="false" />
+            <element signature="e#33201#34727#0" expanded="false" />
+            <element signature="e#34789#37140#0" expanded="false" />
+            <element signature="e#37207#39573#0" expanded="false" />
+            <element signature="e#39622#40918#0" expanded="false" />
+            <element signature="e#40947#42584#0" expanded="false" />
+            <element signature="e#42640#43078#0" expanded="false" />
+            <element signature="e#43112#45983#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4190141" vertical-offset="0" max-vertical-offset="568">
+          <caret line="179" column="45" selection-start-line="179" selection-start-column="45" selection-end-line="179" selection-end-column="45" />
+          <folding>
+            <element signature="tag#a#1;tag#nav#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#0;tag#div#0;tag#nav#0;tag#div#0" expanded="false" />
+            <element signature="tag#div#1;tag#nav#0;tag#div#0" expanded="false" />
+            <element signature="tag#li#2;tag#ul#0;tag#div#1;tag#nav#0;tag#div#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62222224" vertical-offset="871" max-vertical-offset="1411">
+          <caret line="71" column="29" selection-start-line="69" selection-start-column="4" selection-end-line="73" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/shared/header/headerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.94276094" vertical-offset="834" max-vertical-offset="1496">
+          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1683">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#3616#19237#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/views/restricted.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/config/states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37037036" vertical-offset="460" max-vertical-offset="10676">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding>
+            <element signature="e#437#547#0" expanded="false" />
+            <element signature="e#585#712#0" expanded="false" />
+            <element signature="e#2857#4608#0" expanded="false" />
+            <element signature="e#4684#4836#0" expanded="false" />
+            <element signature="e#4889#5419#0" expanded="false" />
+            <element signature="e#5473#6254#0" expanded="false" />
+            <element signature="e#6311#6852#0" expanded="false" />
+            <element signature="e#6908#7558#0" expanded="false" />
+            <element signature="e#7610#8251#0" expanded="false" />
+            <element signature="e#8304#8972#0" expanded="false" />
+            <element signature="e#9050#9424#0" expanded="false" />
+            <element signature="e#9484#10044#0" expanded="false" />
+            <element signature="e#10100#10640#0" expanded="false" />
+            <element signature="e#10294#10515#0" expanded="false" />
+            <element signature="e#10699#10948#0" expanded="false" />
+            <element signature="e#11004#11544#0" expanded="false" />
+            <element signature="e#11602#12152#0" expanded="false" />
+            <element signature="e#12214#12784#0" expanded="false" />
+            <element signature="e#12845#13409#0" expanded="false" />
+            <element signature="e#13469#14028#0" expanded="false" />
+            <element signature="e#14080#14600#0" expanded="false" />
+            <element signature="e#14659#15214#0" expanded="false" />
+            <element signature="e#15277#15851#0" expanded="false" />
+            <element signature="e#15907#16147#0" expanded="false" />
+            <element signature="e#16205#16451#0" expanded="false" />
+            <element signature="e#16506#17041#0" expanded="false" />
+            <element signature="e#17095#17625#0" expanded="false" />
+            <element signature="e#17707#17864#0" expanded="false" />
+            <element signature="e#17924#18173#0" expanded="false" />
+            <element signature="e#18231#18474#0" expanded="false" />
+            <element signature="e#18530#18767#0" expanded="false" />
+            <element signature="e#18824#19064#0" expanded="false" />
+            <element signature="e#19121#19361#0" expanded="false" />
+            <element signature="e#19421#19670#0" expanded="false" />
+            <element signature="e#43308#43971#0" expanded="false" />
+            <element signature="e#43999#44071#0" expanded="false" />
+            <element signature="e#44143#44668#0" expanded="false" />
+            <element signature="e#44335#44553#0" expanded="false" />
+            <element signature="e#44581#44650#0" expanded="false" />
+            <element signature="e#44722#45628#0" expanded="false" />
+            <element signature="e#45678#46569#0" expanded="false" />
+            <element signature="e#45858#46450#0" expanded="false" />
+            <element signature="e#46167#46428#0" expanded="false" />
+            <element signature="e#46311#46400#0" expanded="false" />
+            <element signature="e#46627#47550#0" expanded="false" />
+            <element signature="e#46831#47431#0" expanded="false" />
+            <element signature="e#47459#47532#0" expanded="false" />
+            <element signature="e#47605#48830#0" expanded="false" />
+            <element signature="e#47800#48714#0" expanded="false" />
+            <element signature="e#47924#48033#0" expanded="false" />
+            <element signature="e#48114#48375#0" expanded="false" />
+            <element signature="e#48429#48692#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1343">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.116197184" vertical-offset="2" max-vertical-offset="1394">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/assets/css/main.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="194">
+          <caret line="0" column="190797" selection-start-line="0" selection-start-column="190797" selection-end-line="0" selection-end-column="190797" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/components/forms/wizardView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3740">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3989899" vertical-offset="178450" max-vertical-offset="211514">
+          <caret line="10511" column="30" selection-start-line="10511" selection-start-column="30" selection-end-line="10511" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.418182" vertical-offset="1483" max-vertical-offset="2227">
-          <caret line="108" column="12" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
-          <folding />
+        <state vertical-scroll-proportion="-7.0740743" vertical-offset="315" max-vertical-offset="2329">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding>
+            <marker date="1446420454485" expanded="true" signature="2177:3355" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/index.php">
+    <entry file="file://$PROJECT_DIR$/api/v1/config/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="102" max-vertical-offset="1938">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v1.2.0/admin/src/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6032172" vertical-offset="829" max-vertical-offset="1479">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.20481928" vertical-offset="0" max-vertical-offset="581">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
+

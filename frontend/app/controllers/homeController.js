@@ -1,6 +1,6 @@
 angular
     .module('magazin.frontend')
-    .controller('loginController', [
+    .controller('homeController', [
         '$scope',
         '$rootScope',
         'utils',
@@ -70,3 +70,4 @@ angular
 
         }
     ]);
+
