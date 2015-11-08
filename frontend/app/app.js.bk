@@ -3,9 +3,10 @@
 angular.module('magazin.frontend', [
     'ui.router',
     'oc.lazyLoad',
-    'ConsoleLogger',
-    'magazin.frontend.auth',
-    'magazin.frontend.dashoard'
+    'ngSanitize',
+    'ngAnimate',
+    'ngRetina',
+    'ConsoleLogger'
 ]);
 
 /*

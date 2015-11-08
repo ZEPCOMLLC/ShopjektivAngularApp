@@ -1,17 +1,18 @@
 
 
-angular.module('magazin.frontend', [
+angular.module('magazin.frontend.auth', [
     'ui.router',
     'oc.lazyLoad',
-    'ConsoleLogger',
-    'magazin.frontend.auth',
-    'magazin.frontend.dashoard'
+    'ngSanitize',
+    'ngAnimate',
+    'ngRetina',
+    'ConsoleLogger'
 ]);
 
 /*
-angular.module('magazin.frontend', ['ngRoute']);
-*/
-angular.module('magazin.frontend')
+ angular.module('magazin.frontend', ['ngRoute']);
+ */
+angular.module('magazin.frontend.auth')
     .run([
         '$rootScope',
         '$stateParams',
