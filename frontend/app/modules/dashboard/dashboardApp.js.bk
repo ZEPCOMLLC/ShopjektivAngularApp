@@ -1,0 +1,20 @@
+
+'use strict';
+angular.module('magazin.frontend.dashboard', [
+    'ui.router',
+    'oc.lazyLoad',
+    'ngSanitize',
+    'ngAnimate',
+    'ngRetina'
+]);
+
+
+angular.module('magazin.frontend.dashboard')
+    .run([
+        '$rootScope',
+        function ($rootScope ) {
+
+
+
+        }
+    ])

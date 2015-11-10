@@ -8,9 +8,6 @@ angular
         function ($stateProvider, $urlRouterProvider) {
 
             // Use $urlRouterProvider to configure any redirects (when) and invalid urls (otherwise).
-            $urlRouterProvider
-                .when('/', '/')
-                .otherwise('/');
             $stateProvider
                 .state("login", {
                     /* parent : true ,*/

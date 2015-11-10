@@ -628,10 +628,6 @@ angular
                 scope: true,
                 link: function (scope, el, attrs) {
 
-                    if(el.closest('.md-card').hasClass('md-card-overlay-active')) {
-                        el.html('&#xE5CD;')
-                    }
-
                     scope.toggleOverlay = function ($event) {
 
                         $event.preventDefault();
@@ -966,7 +962,11 @@ angular
                     height: '=',
                     style: '@?'
                 },
-                template: '<img src="assets/img/spinners/{{style}}{{imgDensity}}.gif" alt="" ng-attr-width="{{width}}" ng-attr-height="{{height}}">',
+                template: '<img src= "../vendor/altair_v2.0.0/admin/angular/assets/img/spinners/{{style}}{{imgDensity}}.gif" alt="" ng-attr-width="{{width}}" ng-attr-height="{{height}}">',
+/*
+                template: '<img src= "{{path}}assets/img/spinners/{{style}}{{imgDensity}}.gif" alt="" ng-attr-width="{{width}}" ng-attr-height="{{height}}">',
+*/
+
                 link: function (scope, elem, attrs) {
 
                     scope.width = scope.width ? scope.width : 32;

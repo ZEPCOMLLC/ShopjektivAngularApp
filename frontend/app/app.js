@@ -3,14 +3,14 @@
 angular.module('magazin.frontend', [
     'ui.router',
     'oc.lazyLoad',
+    'ngSanitize',
     'ConsoleLogger',
+    'pascalprecht.translate',
     'magazin.frontend.auth',
-    'magazin.frontend.dashoard'
+
+
 ]);
 
-/*
-angular.module('magazin.frontend', ['ngRoute']);
-*/
 angular.module('magazin.frontend')
     .run([
         '$rootScope',
@@ -76,7 +76,7 @@ angular.module('magazin.frontend')
             $rootScope.largeScreen = w.innerWidth >= 1220;
 
             w.on('resize', function() {
-                return $rootScope.largeScreen = w.width() >= 1220;
+                return $rootScope.largeScreen = w.innerWidth >= 1220;
             });
 
             // show/hide main menu on page load

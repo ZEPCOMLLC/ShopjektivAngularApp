@@ -186,7 +186,7 @@ angular
 
                     element.after('<div class="selectize_fix"></div>');
 
-                    element.selectize(config);
+                    $(element).selectize(config);
 
                     element.on('$destroy', function () {
                         if (selectize) {

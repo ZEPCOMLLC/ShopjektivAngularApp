@@ -9,28 +9,50 @@ angular
 
             // Use $urlRouterProvider to configure any redirects (when) and invalid urls (otherwise).
             $urlRouterProvider
-                .when('/', '/')
-                .otherwise('/');
+              .when('/dashboard', '/')
+             .otherwise('/');
             $stateProvider
-                // -- Home Page --
-               /* .state("home", {
-                   *//* parent : true ,*//*
+                // -- RESTRICTED --
+                .state("restricted", {
+                    abstract: true,
                     url: "",
-                    templateUrl: 'app/views/home.html',
-                    controller:'homeController'
-                })*/
-              /*  .state("login", {
-                    *//* parent : true ,*//*
-                    url: "/login",
-                    templateUrl: 'app/views/home.html',
-                    controller:'homeController'
-                });*/
-            $stateProvider.state("dashboard", {
-                    /* parent : true ,*/
-                    url: "/dashboard",
-                    templateUrl: 'app/views/content.html'
+                    views: {
+                        'main_header': {
+                            templateUrl: 'app/views/headerView.html',
+                            controller: 'main_headerController'
+                        },
+                        'main_sidebar': {
+                            templateUrl: 'app/views/main_sidebarView.html',
+                            controller: 'main_sidebarController'
+                        },
+                        '': {
+                            templateUrl: 'app/views/restricted.html'
+                        }
+                    }
+                  ,
+                    resolve: {
+                        deps: ['$ocLazyLoad', function($ocLazyLoad) {
+                            return $ocLazyLoad.load([
+                                'lazy_selectizeJS',
+                                'lazy_switchery',
+                                'lazy_prismJS',
+                                'lazy_autosize',
+                                'lazy_iCheck',
+                                'lazy_style_switcher'
+                            ],{ serie: true });
+                        }]
+                    }
                 })
+              // -- DASHBOARD --
+                .state("restricted.dashboard", {
+                    url: "/",
+                    templateUrl: 'app/views/dashboardView.html',
+                    controller: 'dashboardController',
 
+                    data: {
+                        pageTitle: 'Dashboard'
+                    }
 
+                })
         }
-    ]);
+]);

@@ -43,23 +43,23 @@ $path2 = "../vendor/altair_v2.0.0/admin/html/src/";
 
 </head>
 <body class="{{main_theme}}" data-uk-observe ng-class="{
-    'header_main_content': primarySidebarActive && !$state.is('home'),
-    'sidebar_main_active': primarySidebarActive && !miniSidebarActive  && ( !$state.is('home') && !$state.is('login') && !$state.includes('error')),
-    'sidebar_main_open': primarySidebarOpen && !miniSidebarActive && largeScreen &&  ( !$state.is('home') && !$state.is('login')&& !$state.includes('error')),
-    'sidebar_mini': miniSidebarActive && largeScreen &&  (!$state.is('home')&& !$state.is('login') && !$state.includes('error')),
+    'sidebar_main_active': primarySidebarActive && !miniSidebarActive && (!$state.is('login') && !$state.includes('error')),
+    'sidebar_main_open': primarySidebarOpen && !miniSidebarActive && largeScreen && (!$state.is('login') && !$state.includes('error')),
+    'sidebar_mini': miniSidebarActive && largeScreen && (!$state.is('login') && !$state.includes('error')),
     'sidebar_main_hiding': primarySidebarHiding,
-    'sidebar_secondary_active': secondarySidebarActive &&  ( !$state.is('home') && !$state.is('login') && !$state.includes('error')),
-    'top_bar_active': toBarActive && ( !$state.is('home') && !$state.is('login') && !$state.includes('error')),
-    'header_double_height': headerDoubleHeightActive && ( !$state.is('home') && !$state.is('login') && !$state.includes('error')),
-    'main_search_active': mainSearchActive && ( !$state.is('home') && !$state.is('login') && !$state.includes('error')),
+    'sidebar_secondary_active': secondarySidebarActive && (!$state.is('login') && !$state.includes('error')),
+    'top_bar_active': toBarActive && (!$state.is('login') && !$state.includes('error')),
+    'header_double_height': headerDoubleHeightActive && (!$state.is('login') && !$state.includes('error')),
+    'main_search_active': mainSearchActive && (!$state.is('login') && !$state.includes('error')),
     'login_page': $state.is('login'),
     'error_page': $state.includes('error'),
-    'uk-height-1-1': page_full_height}"
-      content-sidebar>
+    'uk-height-1-1': page_full_height
+}" content-sidebar>
 <div class="wrapper">
 
 <!-- Main Angular scripts -->
     <script src="../vendor/angular_v1.4.4/angular.js"></script>
+    <script src="<?php echo $path; ?>bower_components/angular-translate/angular-translate.js"></script>
 
     <script src="../vendor/ui-router/angular-ui-router.js"></script>
     <!-- common functions -->
@@ -80,21 +80,21 @@ $path2 = "../vendor/altair_v2.0.0/admin/html/src/";
         <!-- Angular Dateien zusammenfassen und einbinden -->
     <script type="text/javascript" src="virtual_javascript.php"></script>
 
-    <!-- main header -->
-    <header id="header_main">
-        <?php require_once('app/layout/header.html');?>
-    </header>
-    <!-- main header end -->
+   <div id="page_preloader"><preloader success></preloader></div>
+   <div ui-view="main_header"></div>
+   <div ui-view class="app_wrapper" ng-class="{ 'uk-height-1-1': page_full_height }"></div>
+    <div ui-view="main_sidebar"></div>
 
-    <!-- main sidebar -->
-    <aside id="sidebar_main">
-        <?php  echo "sidebar_main.html"; ?>
-    </aside>
     <!-- main sidebar end -->
-
-    <div id="page_content">
+<!--    <header id="header_main">
+        <?php /*require_once('app/layout/header.html');*/?>
+    </header>-->
+   <!--<div id="page_content">
         <div id="page_content_inner" ui-view></div>
-    </div>
+    </div>-->
+<!--    <aside id="sidebar_main">
+        <?php /* require_once('app/layout/sidebar_main.html'); */?>
+    </aside>-->
 </div>
 
     <!-- google web fonts -->
