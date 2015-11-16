@@ -27,8 +27,10 @@ $app->post('/login', function() use ($app) {
    
    
    // Getting post parameters
-   $parameters = $app->request->post();
-  
+  // $parameters = $app->request->post();
+    $json = $app->request->getBody();
+    $parameters = json_decode($json, true);
+
    // Getting post JSON parameters
    #$parameters = json_decode($app->request->getBody(),true);
 	
@@ -39,6 +41,7 @@ $app->post('/login', function() use ($app) {
 	 
 	 // check user credentials
 	 if (isset($parameters['email']) && isset($parameters['password'])) {
+
 	    
       $user = ORM::for_table('user')->where('email', $parameters['email'])->find_one();
 	   	if($user != null){ 
@@ -62,8 +65,11 @@ $app->post('/login', function() use ($app) {
             // role (fk)
             $role = ORM::for_table('role')->where('id', $user->role_id)->find_one();
             $response["role_id"] = $role->name;
-		        
-		        
+
+            //name
+             $role = ORM::for_table('role')->where('id', $user->role_id)->find_one();
+             $response["user_name"] = $user->name;
+
             
             echoResponse(200, $response);
 		        $app->stop(); 
@@ -95,6 +101,7 @@ $app->post('/login', function() use ($app) {
 	
 
 });
+
 
 
 
