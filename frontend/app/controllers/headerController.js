@@ -4,8 +4,9 @@ angular
         '$timeout',
         '$scope',
         '$window',
-         'variables',
-        function ($timeout,$scope,$window,variables) {
+        'variables',
+        'UserAuth',
+        function ($timeout,$scope,$window,variables,User) {
 
             $scope.user_data = {
                 name: "Lue Feest",
@@ -72,13 +73,12 @@ angular
             $scope.alerts_length = $scope.user_data.alerts.length;
             $scope.messages_length = $scope.user_data.messages.length;
 
-
             $('#menu_top').children('[data-uk-dropdown]').on('show.uk.dropdown', function(){
                 $timeout(function() {
                     $($window).resize();
                 },280)
             });
-
+            console.log('yescalling __________not');
 
         }
     ]);

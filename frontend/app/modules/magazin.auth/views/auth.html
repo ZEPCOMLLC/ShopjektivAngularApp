@@ -11,7 +11,7 @@
 <!--
                     <input class="md-input" type="text" id="login_username" ng-model="login_username" md-input />
 -->
-                    <input class="md-input" type="text" id="login_username" ng-model="login.username" md-input />
+                    <input class="md-input" type="text" id="login_username" ng-model="login.email" md-input />
 
                 </div>
                 <div class="uk-form-row">
@@ -23,7 +23,7 @@
 
                 </div>
                 <div class="uk-margin-medium-top">
-                    <a  ng-click="checkLogin(login)" class="md-btn md-btn-primary md-btn-block md-btn-large" type="submit">Sign In</a>
+                    <a  ng-click="doLogin(login)" class="md-btn md-btn-primary md-btn-block md-btn-large" type="submit">Sign In</a>
 <!--
                     <a ui-sref="restricted.dashboard" class="md-btn md-btn-primary md-btn-block md-btn-large">Sign In</a>
 -->

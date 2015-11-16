@@ -15,19 +15,19 @@
 
  */
 
-var services = angular.module('magazin.frontend.user.services', ['ngResource']);
+angular.module('magazin.frontend.user', ['ngResource'])
 
-services.factory('UsersFactory', function ($resource) {
-    return $resource('/api/v1/users', {}, {
-        query: { method: 'GET', isArray: true },
+.factory('UsersFactory', function ($resource) {
+    return $resource('../api/v1/user/', {}, {
+        query: { method: 'GET', headers: {'Api-Key': '@token'},isArray: true  },
         create: { method: 'POST' }
     })
-});
+})
 
-services.factory('UserFactory', function ($resource) {
+.factory('UserFactory', function ($resource) {
     return $resource('/api/v1/users/:id', {}, {
         show: { method: 'GET' },
         update: { method: 'PUT', params: {id: '@id'} },
         delete: { method: 'DELETE', params: {id: '@id'} }
     })
-});
+})

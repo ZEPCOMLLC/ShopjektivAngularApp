@@ -1,16 +1,16 @@
-var app = angular.module('magazin.user', []);
-
-app.directive('loginUrl', function() {
+;'use strict';
+angular.module('magazin.frontend.user')
+.directive('loginUrl', function() {
     return {
         templateUrl: 'view/login.html'
     };
-});
-app.directive('registerUrl', function() {
+})
+.directive('registerUrl', function() {
     return {
         templateUrl: 'view/register.html'
     };
-});
-app.directive('logoutUrl', function() {
+})
+.directive('logoutUrl', function() {
     return {
         templateUrl: 'view/logout.html'
     };

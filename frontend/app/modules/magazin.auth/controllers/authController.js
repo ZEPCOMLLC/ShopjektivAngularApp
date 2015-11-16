@@ -4,9 +4,13 @@ angular
         '$scope',
         '$rootScope',
         'utils',
-        'apiConnector',
+        '$window',
         '$state',
-        function ($scope,$rootScope,utils,apiConnector,$state) {
+        '$http',
+        'authenticationService',
+        '$cookies',
+        'api',
+        function ($scope,$rootScope,utils,$window,$state,$http,authService,$cookies,api) {
 
             $scope.registerFormActive = false;
 
@@ -48,63 +52,41 @@ angular
                     .hide();
             };
 
-            $scope.checkLogin = function() {
+            $scope.doLogin = function() {
                // $event.preventDefault();*/
-                apiConnector.post('/api/v1/login', {
-                    login: $scope.login
-                }).then(function(res) {
-
-                    if (res.status === 'error') {
-                        /* $scope.loading = false;*/
-                        $scope.btLogin = 'Sign In';
-
-                        /// $scope.addAlert('danger', res.message);
-                        console.log('error has come up');
+                authService.auth('login',$scope.login).then(function(response) {
+                    //console.log(res);
+                    if(response.error == true)
+                    {
+                        console.log('wrong authentication...');
+                    }
+                    else
+                    {
+                       //console.log(response);
+                        api.init(response.api_key);
+                        $window.sessionStorage.userName = response.user_name;
+                        $window.sessionStorage.token = response.api_key;
+                        $window.sessionStorage.role = response.role_id;
+                        $window.sessionStorage.isLogged = true;
+                        $rootScope.userName =  $window.sessionStorage.userName
+                        $state.go('restricted.dashboard');
                     }
 
-                    if (res.status === 'success') {
 
-                        //   $scope.addAlert('success', res.message);
-
-                        $timeout(function() {
-                            $state.go('dashboard');
-                        }, 1000);
-                    }
 
                 });
 
-
             };
+            $scope.logout = function () {
+                $window.sessionStorage.clear();
+                $state.go('login');
+            }
+            $scope.validate = function(obj){};
 
             $scope.loginHelp = function($event) {
                 $event.preventDefault();
                 utils.card_show_hide($login_card,undefined,login_help_show,undefined);
                 /*$state.go('dashboard');*/
-
-                apiConnector.post('api/v1/controllers/auth/login', {
-                    login: $scope.login
-                }).then(function(res) {
-
-                    if (res.status === 'error') {
-                       /* $scope.loading = false;*/
-                        $scope.btLogin = 'Sign In';
-
-                       /// $scope.addAlert('danger', res.message);
-                        console.log('error has come up');
-                    }
-
-                    if (res.status === 'success') {
-
-                     //   $scope.addAlert('success', res.message);
-
-                        $timeout(function() {
-                            $state.go('dashboard');
-                        }, 1000);
-                    }
-
-                });
-
-
             };
 
             $scope.backToLogin = function($event) {
@@ -117,6 +99,8 @@ angular
                 $event.preventDefault();
                 $scope.registerFormActive = true;
                 utils.card_show_hide($login_card,undefined,register_form_show,undefined);
+
+
             };
 
             $scope.passwordReset = function($event) {

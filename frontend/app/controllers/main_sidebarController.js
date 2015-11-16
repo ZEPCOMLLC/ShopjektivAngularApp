@@ -41,9 +41,9 @@ angular
                 render: {
                     option: function(langData, escape) {
                         return  '<div class="option">' +
-                            '<i class="item-icon flag-' + escape(langData.value).toUpperCase() + '"></i>' +
-                            '<span>' + escape(langData.title) + '</span>' +
-                            '</div>';
+                        '<i class="item-icon flag-' + escape(langData.value).toUpperCase() + '"></i>' +
+                        '<span>' + escape(langData.title) + '</span>' +
+                        '</div>';
                     },
                     item: function(langData, escape) {
                         return '<div class="item"><i class="item-icon flag-' + escape(langData.value).toUpperCase() + '"></i></div>';
@@ -68,9 +68,26 @@ angular
                 },
                 {
                     id: 1,
-                    title: 'Mailbox',
-                    icon: '&#xE158;',
-                    link: 'restricted.pages.mailbox'
+                    title: 'Users',
+                    icon: '&#xE87C;',
+                    submenu: [
+                        {
+                            title: 'User Details',
+                            link: 'restricted.user.detail'
+                        },
+                        {
+                            title: 'User Edit',
+                            link: 'restricted.user.edit'
+                        },
+                        {
+                            title: 'User Add',
+                            link: 'restricted.user.create'
+                        },
+                        {
+                            title: 'User List',
+                            link: 'restricted.user.list'
+                        }
+                    ]
                 },
                 {
                     id: 2,

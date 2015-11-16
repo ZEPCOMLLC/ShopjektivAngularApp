@@ -71,9 +71,13 @@ $path2 = "../vendor/altair_v2.0.0/admin/html/src/";
     <script src="<?php echo $path; ?>bower_components/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="<?php echo $path; ?>bower_components/angular-animate/angular-animate.min.js"></script>
     <!-- ui-router -->
-    <script src="<?php echo $path; ?>bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="<?php echo $path; ?>bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="<?php echo $path; ?>bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="<?php echo $path; ?>bower_components/angular-cookies/angular-cookies.min.js"></script>
+
+
     <!-- ocLazyLoad -->
-    <script src="<?php echo $path; ?>bower_components/oclazyload/dist/ocLazyLoad.min.js"></script>
+    <script src="<?php echo $path; ?>bower_components/oclazyload/dist/ocLazyLoad.js"></script>
     <!-- retina images -->
     <script src="<?php echo $path; ?>app/modules/angular-retina.js"></script>
 <!--    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0rc1/angular-route.min.js"></script>-->
@@ -84,17 +88,6 @@ $path2 = "../vendor/altair_v2.0.0/admin/html/src/";
    <div ui-view="main_header"></div>
    <div ui-view class="app_wrapper" ng-class="{ 'uk-height-1-1': page_full_height }"></div>
     <div ui-view="main_sidebar"></div>
-
-    <!-- main sidebar end -->
-<!--    <header id="header_main">
-        <?php /*require_once('app/layout/header.html');*/?>
-    </header>-->
-   <!--<div id="page_content">
-        <div id="page_content_inner" ui-view></div>
-    </div>-->
-<!--    <aside id="sidebar_main">
-        <?php /* require_once('app/layout/sidebar_main.html'); */?>
-    </aside>-->
 </div>
 
     <!-- google web fonts -->

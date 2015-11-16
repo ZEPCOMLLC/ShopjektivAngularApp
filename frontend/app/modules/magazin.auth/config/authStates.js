@@ -13,7 +13,17 @@ angular
                     /* parent : true ,*/
                     url: "/login",
                     templateUrl: 'app/modules/magazin.auth/views/auth.html',
-                    controller:'authController'
-                });
+                    controller:'authController',
+                    data: {
+                        requireLogin: false
+                    },
+                    access: {
+                        isFree: true
+                    }
+                })
+                .state("logout", {
+                    /* parent : true ,*/
+                    url: "/logout"
+                })
         }
     ]);

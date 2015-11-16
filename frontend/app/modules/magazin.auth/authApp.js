@@ -5,8 +5,8 @@ angular.module('magazin.frontend.auth', [
     'oc.lazyLoad',
     'ngSanitize',
     'ngAnimate',
-    'ngRetina',
-    'ConsoleLogger'
+    'ngRetina'
+/*    'ConsoleLogger'*/
 ]);
 
 /*
@@ -17,11 +17,13 @@ angular.module('magazin.frontend.auth')
         '$rootScope',
         '$stateParams',
         '$state',
+        '$cookies',
         '$http',
         '$window',
         '$timeout',
         'variables',
-        function ($rootScope,$stateParams, $state, $http,$window, $timeout,variables ) {
+        'UserAuth',
+        function ($rootScope,$stateParams, $state, $cookies,$http,$window, $timeout,variables ,User) {
 
             $rootScope.$state = $state;
             $rootScope.$stateParams = $stateParams;
@@ -42,26 +44,29 @@ angular.module('magazin.frontend.auth')
 
             });
 
-            $rootScope.$on('$stateChangeStart', function () {
-                // main search
-                $rootScope.mainSearchActive = false;
-                // single card
-                $rootScope.headerDoubleHeightActive = false;
-                // top bar
-                $rootScope.toBarActive = false;
-                // full height
-                $rootScope.page_full_height = false;
-                // secondary sidebar
-                $rootScope.sidebar_secondary = false;
-                $rootScope.secondarySidebarHiddenLarge = false;
+            $rootScope.$on('$stateChangeStart',function (event,toState,toParams) {
+                    // main search
+                    $rootScope.mainSearchActive = false;
+                    // single card
+                    $rootScope.headerDoubleHeightActive = false;
+                    // top bar
+                    $rootScope.toBarActive = false;
+                    // full height
+                    $rootScope.page_full_height = false;
+                    // secondary sidebar
+                    $rootScope.sidebar_secondary = false;
+                    $rootScope.secondarySidebarHiddenLarge = false;
 
-                if($($window).width() < 1220 ) {
-                    $rootScope.primarySidebarActive = false;
-                    $rootScope.hide_content_sidebar = false;
-                }
+                    if ($($window).width() < 1220) {
+                        $rootScope.primarySidebarActive = false;
+                        $rootScope.hide_content_sidebar = false;
+                    }
 
-                $rootScope.pageLoading = true;
-                $rootScope.pageLoaded = false;
+                    $rootScope.pageLoading = true;
+                    $rootScope.pageLoaded = false;
+
+
+
 
             });
 
@@ -84,7 +89,6 @@ angular.module('magazin.frontend.auth')
             $rootScope.primarySidebarOpen = ($rootScope.largeScreen) ? true : false;
 
             $rootScope.pageLoading = true;
-
         }
     ])
     .run([

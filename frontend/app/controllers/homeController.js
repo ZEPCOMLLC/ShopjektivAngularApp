@@ -10,7 +10,8 @@ angular
         '$scope',
         '$window',
         'variables',
-        function ($timeout,$scope,$window,variables) {
+        'UserAuth',
+        function ($timeout,$scope,$window,variables,User) {
 
             $scope.user_data = {
                 name: "Lue Feest",
@@ -83,11 +84,11 @@ angular
                     $($window).resize();
                 },280)
             });
-
+            $scope.userName =User.userName;
 
         }
     ])
-    .controller('main_sidebarController', [
+    /*.controller('main_sidebarController', [
         '$timeout',
         '$scope',
         '$rootScope',
@@ -156,14 +157,14 @@ angular
                 },
                 {
                     id: 1,
-                    title: 'Mailbox',
-                    icon: '&#xE158;',
-                    link: 'restricted.pages.mailbox'
+                    title: 'Users',
+                    icon: '&#xE87C;',
+                    link: 'restricted.user.list'
                 },
                 {
                     id: 2,
                     title: 'Invoices',
-                    icon: '&#xE53E;',
+                    icon:  '&#xE53E;',
                     link: 'restricted.pages.invoices'
                 },
                 {
@@ -487,6 +488,6 @@ angular
             ]
 
         }
-    ])
+    ])*/
 
 ;

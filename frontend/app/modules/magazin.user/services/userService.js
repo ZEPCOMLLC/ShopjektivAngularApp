@@ -1,12 +1,11 @@
-(function () {
-    'use strict';
+'use strict';
 
     angular
-        .module('magazin.user')
+        .module('magazin.frontend.user')
         .factory('UserService', UserService);
 
     UserService.$inject = ['$http'];
-   /* function UserService($http) {
+    function UserService($http) {
         var service = {};
 
         service.GetAll = GetAll;
@@ -16,10 +15,42 @@
         service.Update = Update;
         service.Delete = Delete;
 
+        service.userGet = function (token) {
+
+            return $http({
+                url: '../api/v1/user/',
+                method: "GET",
+                headers: {
+                    'Api-Key': token
+                }
+            }).then(function (results) {
+                return results.data;
+            });
+        };
+
+        service.createUser = function (token,user) {
+
+            return $http({
+                url: '../api/v1/user/',
+                method: "POST",
+                headers: {
+                    'Api-Key': token
+                },
+                data: {
+                    'name': user.name,
+                    'email': user.name,
+                    'password': user.name
+
+                }
+            }).then(function (results) {
+                return results.data;
+            });
+        };
+
         return service;
 
         function GetAll() {
-            return $http.get('/api/users').then(handleSuccess, handleError('Error getting all users'));
+            return $http.get('../api/v1/user/').then(handleSuccess, handleError('Error getting all users'));
         }
 
         function GetById(id) {
@@ -53,6 +84,5 @@
                 return { success: false, message: error };
             };
         }
-    }*/
+    }
 
-})();
