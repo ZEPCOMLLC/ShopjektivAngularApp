@@ -1,0 +1,46 @@
+<div id="page_content">
+    <div id="page_content_inner">
+
+        <div class="md-card">
+            <div class="md-card-content">
+                <div class="uk-grid" data-uk-grid-margin>
+                    <div class="uk-width-1-1">
+                        <div class="uk-overflow-container">
+                            <table class="uk-table uk-table-nowrap">
+                                <thead>
+                                <tr>
+                                    <th>User Name</th>
+                                    <th>Email</th>
+                                    <th>Role</th>
+                                    <th>Last Login</th>
+                                    <th>Active</th>
+                                    <th>Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr dir-paginate="user in usersData | itemsPerPage: pageSize">
+                                    <td class="uk-width-2-10 uk-text-large"><a ui-sref="restricted.user.detail">{{ user.name }}</a></td>
+                                    <td class="uk-width-3-10 uk-text-large">{{ user.email}}</td>
+                                    <td class="uk-width-2-10 uk-text-nowrap">{{ user.role }}</td>
+                                    <td class="uk-width-3-10 uk-text-large">{{ user.last_login}}</td>
+
+                                    <td>
+                                        <i class="material-icons uk-text-success md-24" ng-if="user.active">&#xE834;</i>
+                                        <i class="material-icons md-24" ng-if="!user.active">&#xE835;</i>
+                                    </td>
+                                    <td class="uk-text-nowrap">
+                                        <a ui-sref="restricted.user.detail"><i class="md-icon material-icons md-24">&#xE8F4;</i></a>
+                                        <a href="#"><i class="md-icon material-icons md-24">&#xE872;</i></a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <dir-pagination-controls boundary-links="true" template-url="app/views/templates/dirPagination.tpl.html"></dir-pagination-controls>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

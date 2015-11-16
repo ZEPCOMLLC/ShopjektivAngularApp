@@ -1,5 +1,6 @@
+'use strict';
 angular
-    .module('magazin.frontend.product')
+    .module('magazin.frontend.product.controller',[])
     .controller('productController', [
         '$scope',
         '$rootScope',
@@ -100,8 +101,8 @@ angular
             // serialize form on submit
             $scope.submitForm = function($event) {
                 $event.preventDefault();
-                var form_serialized = JSON.stringify( utils.serializeObject($('#product_edit_form')), null, 2 );
-                UIkit.modal.alert('<p>Product data:</p><pre>' + form_serialized + '</pre>');
+              //  var form_serialized = JSON.stringify( utils.serializeObject($('#product_edit_form')), null, 2 );
+              //  UIkit.modal.alert('<p>Product data:</p><pre>' + form_serialized + '</pre>');
             }
 
         }

@@ -1,6 +1,6 @@
 angular
-    .module('magazin.frontend.product')
-    .controller('products_listController', [
+    .module('magazin.frontend.product.controller')
+    .controller('productsListController', [
         '$scope',
         '$rootScope',
         'products_data',
