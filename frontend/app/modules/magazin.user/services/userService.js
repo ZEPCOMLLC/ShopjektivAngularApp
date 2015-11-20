@@ -4,8 +4,8 @@
         .module('magazin.frontend.user')
         .factory('UserService', UserService);
 
-    UserService.$inject = ['$http'];
-    function UserService($http) {
+    UserService.$inject = ['$http','variables'];
+    function UserService($http,variables) {
         var service = {};
 
         service.GetAll = GetAll;
@@ -15,10 +15,12 @@
         service.Update = Update;
         service.Delete = Delete;
 
+        var apiUrl=variables.apiBaseUrl+'user/'
+
         service.userGet = function (token) {
 
             return $http({
-                url: '../api/v1/user/',
+                url: apiUrl,
                 method: "GET",
                 headers: {
                     'Api-Key': token
@@ -28,10 +30,24 @@
             });
         };
 
+        service.getUserDetail = function(id,token){
+            return $http({
+                url: apiUrl,
+                method: "GET",
+                headers: {
+                    'Api-Key': token
+                },
+                params: {id: id}
+            }).then(function (results) {
+                return results.data;
+            });
+        };
+
+
         service.createUser = function (token,user) {
 
             return $http({
-                url: '../api/v1/user/',
+                url: apiUrl,
                 method: "POST",
                 headers: {
                     'Api-Key': token

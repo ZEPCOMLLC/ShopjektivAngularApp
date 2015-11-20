@@ -23,7 +23,7 @@ angular.module('magazin.frontend.user')
         function ($scope,$rootScope, $location,UsersFactory,UserService,Auth) {
 
 
-            $scope.usersData = {};
+            $scope.usersList = [];
            // $scope.userData =User;
 
             $scope.pageSize = 10;
@@ -71,8 +71,8 @@ angular.module('magazin.frontend.user')
                     console.log('wrong data...');
                 }
                 else {
-                    $scope.usersData = response.data;
-                    console.log($scope.usersData);
+                    $scope.usersList = response.data;
+                    console.log($scope.usersList);
 
                 }
             });
@@ -84,6 +84,15 @@ angular.module('magazin.frontend.user')
             $scope.editUser = function (userId) {
                 $location.path('/user-detail/' + userId);
             };
+            $scope.lists = [
+                {
+                    id: 'list1',
+                    collection: [1, 2, 3, 4, 5]
+                },
+                {
+                    id: 'list2',
+                    collection: ['a', 'b', 'c', 'd', 'e']
+                }];
 
             // callback for ng-click 'deleteUser':
             $scope.deleteUser = function (userId) {

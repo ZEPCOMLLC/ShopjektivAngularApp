@@ -6,22 +6,45 @@ angular.module('magazin.frontend.user')
     .controller('userDetailController', [
         '$scope',
         '$rootScope',
+        '$stateParams',
         'UserFactory',
         '$location',
         'utils',
-        'Roles',
-        function ($scope,$rootScope,UserFactory, $location,utils,Roles) {
+        'RolesService',
+        'UserService',
+        'UserAuth',
+        function ($scope,$rootScope,$stateParams,UserFactory, $location,utils,RolesService,UserService,Auth) {
 
-            $scope.user  = {
-                active: true,
-                name:'asisha'
-            };
+            $scope.user  = {};
+            $scope.userId = $stateParams.Id;
             $scope.user_role_options_group = [];
-            $scope.roles = Roles.roles;
+            $scope.roles = [];
+            $scope.selected =
 
-          /*  angular.forEach($scope.roles, function(value) {
-                $scope.user_role_options_group.push(value);
-            });*/
+            RolesService.getRoles(Auth.apiKey).then(function(response) {
+                //console.log(res);
+                if (response.error == true) {
+                    console.log('wrong data...');
+                }
+                else {
+                    $scope.roles = response.data;
+                   // console.log( $scope.roles);
+                    angular.forEach($scope.roles, function(value, key) {
+                        $scope.user_role_options_group.push(value.name);
+                    });
+
+
+
+                    console.log($scope.user_role_options_group);
+                    console.log($scope.user);
+
+
+                }
+            });
+
+
+
+
 
             // serialize form on submit
             $scope.submitForm = function($event) {
@@ -34,6 +57,22 @@ angular.module('magazin.frontend.user')
                 UserFactory.update($scope.user);
                 $location.path('/user-list');
             };
+
+          //  console.log( $stateParams.Id);
+
+             UserService.getUserDetail($scope.userId,Auth.apiKey).then(function(response) {
+                    //console.log(res);
+                    if (response.error == true) {
+                        console.log('wrong data...');
+                    }
+                    else {
+                        $scope.user = response.data;
+                        console.log( $scope.user);
+
+                    }
+             });
+
+
 
             // callback for ng-click 'cancel':
             $scope.cancel = function () {

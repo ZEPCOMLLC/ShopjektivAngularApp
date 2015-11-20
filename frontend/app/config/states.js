@@ -102,7 +102,7 @@ angular
                     }
                 })
                 .state("restricted.user.detail", {
-                    url: "/detail",
+                    url: "/detail/:Id",
                     templateUrl: 'app/modules/magazin.user/views/userDetailView.html',
                     controller: 'userDetailController',
                     resolve: {
@@ -119,7 +119,7 @@ angular
                     }
                 })
                 .state("restricted.user.edit", {
-                    url: "/edit",
+                    url: "/edit/:Id",
                     templateUrl: 'app/modules/magazin.user/views/userEditView.html',
                     controller: 'userDetailController',
                     resolve: {

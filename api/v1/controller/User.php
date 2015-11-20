@@ -10,7 +10,7 @@ $app->get('/user/', 'mw_auth', function () use ($app) {
     foreach ($users as $user) {
         $role = ORM::for_table('role')->find_one($user['role_id']);
         /*            [$user['id']]*/
-        $response['data'] = array(
+        $response['data'][$user['id']] = array(
             'id' => $user['id'],
             'name' => $user['name'],
             'email' => $user['email'],
@@ -30,13 +30,19 @@ $app->get('/user/:id', 'mw_auth', function ($id) use ($app) {
 
 
     $user = ORM::for_table('user')->find_one($id);
+
     $response = array();
     if ($user['id'] != NULL) {
-        $response['data'][$user['id']] = array(
+        // $response['data'][$user['id']] = array(
+        $role = ORM::for_table('role')->find_one($user['role_id']);
+
+        $response['data'] = array(
             'id' => $user['id'],
+            'name'=> $user['name'],
             'email' => $user['email'],
-            'last_login' => $user['last_login'],
-            'active' => $user['active']
+            'password' => $user['password'],
+            'active' => $user['active'],
+            'role' => $role['role']
         );
 
         echoResponse(200, $response);
@@ -158,7 +164,7 @@ $app->get('/role/', 'mw_auth', function () use ($app) {
     foreach ($roles as $role) {
 
         /*           */
-        $response['data'] [$role['id']] = array(
+        $response['data'][$role['id']] = array(
             'id' => $role['id'],
             'name' => $role['name']
         );

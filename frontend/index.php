@@ -75,7 +75,6 @@ $path2 = "../vendor/altair_v2.0.0/admin/html/src/";
     <script src="<?php echo $path; ?>bower_components/angular-resource/angular-resource.min.js"></script>
     <script src="<?php echo $path; ?>bower_components/angular-cookies/angular-cookies.min.js"></script>
 
-
     <!-- ocLazyLoad -->
     <script src="<?php echo $path; ?>bower_components/oclazyload/dist/ocLazyLoad.js"></script>
     <!-- retina images -->
