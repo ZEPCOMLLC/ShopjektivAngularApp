@@ -20,11 +20,13 @@ angular.module('magazin.frontend.user')
         'UsersFactory',
         'UserService',
         'UserAuth',
-        function ($scope,$rootScope, $location,UsersFactory,UserService,Auth) {
+        '$state',
+        function ($scope,$rootScope, $location,UsersFactory,UserService,Auth,$state) {
 
 
             $scope.usersList = [];
-           // $scope.userData =User;
+            $scope.message = '';
+            // $scope.userData =User;
 
             $scope.pageSize = 10;
 
@@ -82,28 +84,42 @@ angular.module('magazin.frontend.user')
             };
             // callback for ng-click 'editUser':
             $scope.editUser = function (userId) {
-                $location.path('/user-detail/' + userId);
-            };
-            $scope.lists = [
-                {
-                    id: 'list1',
-                    collection: [1, 2, 3, 4, 5]
-                },
-                {
-                    id: 'list2',
-                    collection: ['a', 'b', 'c', 'd', 'e']
-                }];
+               // $location.path('/user-detail/' + userId);
+                UserService.getUserDetail(userId,Auth.apiKey).then(
 
-            // callback for ng-click 'deleteUser':
+                    function(response) {
+                        $rootScope.userDetailObj = response.data;
+                        $scope.message = response.data.message;
+                        console.log('success');
+                        console.log(response.data);
+                       // $state.go('restricted.user.detail');
+                        $state.go('restricted.user.detail', {'Id': userId});
+                       // $state.go('restricted.user.edit', {'Id': userId});
+                    },
+                    function (response) {
+                        //do error handling here
+                        $scope.message = response.data.message;
+                        console.log('error');
+                        console.log(response);
+                    }
+                );
+            };
             $scope.deleteUser = function (userId) {
-               //serFactory.delete({ id: userId });
-               //scope.users = UsersFactory.query();
-            };
+                // $location.path('/user-detail/' + userId);
+                UserService.deleteUser(Auth.apiKey,userId).then(
 
-            // callback for ng-click 'createUser':
-            $scope.createNewUser = function () {
-                $location.path('/user-creation');
+                    function(response) {
+                        $scope.message = response.message;
+                        console.log('success');
+                        console.log(response.data);
+                        $state.reload();
+                    },
+                    function (response) {
+                        //do error handling here
+                        $scope.message = response.data.message;
+                        console.log('error');
+                        console.log(response);
+                    }
+                );
             };
-
-           //scope.users = UsersFactory.query();
         }])

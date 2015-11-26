@@ -72,14 +72,6 @@ angular
                     icon: '&#xE87C;',
                     submenu: [
                         {
-                            title: 'User Details',
-                            link: 'restricted.user.detail'
-                        },
-                        {
-                            title: 'User Edit',
-                            link: 'restricted.user.edit'
-                        },
-                        {
                             title: 'User Add',
                             link: 'restricted.user.create'
                         },

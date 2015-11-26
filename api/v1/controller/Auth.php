@@ -57,7 +57,7 @@ $app->post('/login', function() use ($app) {
             $user->api_key       = $api_key;
             
 		        // Set last_login
-            $user->last_login = time();
+            $user->last_login =  date('Y-m-d H:i:s');;
             
             // save user data
             $user->save();
@@ -93,7 +93,7 @@ $app->post('/login', function() use ($app) {
 	    
 	 }
 	 else {
-	    $response["error"] = true;
+	      $response["error"] = true;
 		  $response["message"] = "Bitte E-Mail und Passwort eingeben!";
 		  echoResponse(400, $response);
 		  $app->stop();

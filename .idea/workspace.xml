@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/frontend/index.php" description="&lt;body class=&quot;{{main_theme}}&quot; data-uk-observe ng-cl..." line="44" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="16d68a68-16cd-4d6f-9f2e-e217ac501d41" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\xampp\htdocs\ShopjektivAngularApp\backend\magazin.user\services\userService.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testmodule/magazin.test/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testmodule/magazin.test/view/content.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testmodule/magazin.test/controllers/testController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testmodule/magazin.test/config/testRoutes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testmodule/magazin.test/services/testService.js" />
+      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\frontend\app\app.js.bk" afterPath="" />
+      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\frontend\app\modules\magazin.dashboard\controllers\dashboardController.js.bk" afterPath="" />
+      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\frontend\app\modules\magazin.dashboard\dashboardApp.js.bk" afterPath="" />
+      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\frontend\app\modules\magazin.dashboard\views\dashboardView.html.bk" afterPath="" />
+      <change type="DELETED" beforePath="D:\xempp\htdocs\ShopjektivAngularApp\frontend\index.php.bk" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/controller/Auth.php" afterPath="$PROJECT_DIR$/api/v1/controller/Auth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/controller/User.php" afterPath="$PROJECT_DIR$/api/v1/controller/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/config/constant.js" afterPath="$PROJECT_DIR$/frontend/app/config/constant.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/index.php" afterPath="$PROJECT_DIR$/frontend/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.roles/models/rolesService.js" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.roles/models/rolesService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.auth/views/auth.html" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.auth/views/auth.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.auth/controllers/authController.js" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.auth/controllers/authController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/services/factory.js" afterPath="$PROJECT_DIR$/frontend/app/services/factory.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/controllers/main_sidebarController.js" afterPath="$PROJECT_DIR$/frontend/app/controllers/main_sidebarController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/config/states.js" afterPath="$PROJECT_DIR$/frontend/app/config/states.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userCreateView.html" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userCreateView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userCreationController.js" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userCreationController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userDetailController.js" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userDetailController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userDetailView.html" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userDetailView.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.user/directive/userDirective.js" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.user/directive/userDirective.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userEditView.html" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userEditView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userListController.js" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userListController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userListView.html" afterPath="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userListView.html" />
@@ -42,88 +53,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/v1/controller/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21326165" vertical-offset="170" max-vertical-offset="1105">
-              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-              <folding>
-                <element signature="e#720#1449#1#PHP" expanded="false" />
-                <element signature="e#1498#2703#1#PHP" expanded="false" />
-                <element signature="e#2756#3849#1#PHP" expanded="false" />
-                <element signature="e#3905#4333#1#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userDetailController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userDetailController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.0" vertical-offset="283" max-vertical-offset="1037">
-              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-              <folding>
-                <element signature="e#661#1253#0" expanded="false" />
-                <element signature="e#1350#1606#0" expanded="false" />
-                <element signature="e#1702#1812#0" expanded="false" />
-                <element signature="e#2380#2441#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rolesService.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.roles/models/rolesService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1258">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state vertical-scroll-proportion="-3.709091" vertical-offset="2397" max-vertical-offset="3094">
+              <caret line="153" column="61" selection-start-line="153" selection-start-column="61" selection-end-line="153" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/app/services/service.js">
+      <file leaf-file-name="userListController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state vertical-scroll-proportion="-10.896552" vertical-offset="772" max-vertical-offset="1411">
+              <caret line="111" column="58" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
               <folding>
-                <element signature="e#86#816#0" expanded="false" />
-                <element signature="e#845#2526#0" expanded="false" />
+                <element signature="e#843#1300#0" expanded="false" />
+                <element signature="e#1885#2197#0" expanded="false" />
+                <element signature="e#2416#3360#0" expanded="false" />
+                <element signature="e#2586#3056#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="constants.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.roles/config/constants.js">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2261">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apiFactory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/app/services/apiFactory.js">
+      <file leaf-file-name="userDirective.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/directive/userDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#87#244#0" expanded="false" />
-                <element signature="e#246#761#0" expanded="false" />
-                <element signature="e#839#1465#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userEditView.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userEditView.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.961538" vertical-offset="214" max-vertical-offset="1054">
-              <caret line="37" column="206" selection-start-line="37" selection-start-column="198" selection-end-line="37" selection-end-column="206" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="731">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -132,8 +101,28 @@
       <file leaf-file-name="userListView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userListView.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.115385" vertical-offset="197" max-vertical-offset="1003">
-              <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="561" max-vertical-offset="1190">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userEditView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userEditView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1224">
+              <caret line="11" column="24" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userDetailView.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userDetailView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.75443786" vertical-offset="561" max-vertical-offset="1275">
+              <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -142,8 +131,22 @@
       <file leaf-file-name="userService.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/services/userService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="1870">
-              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            <state vertical-scroll-proportion="-10.310345" vertical-offset="313" max-vertical-offset="901">
+              <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
+              <folding>
+                <element signature="e#655#966#0" expanded="false" />
+                <element signature="e#1019#1572#0" expanded="false" />
+                <element signature="e#1626#2280#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.auth/services/authService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1326">
+              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -160,68 +163,36 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.product/controllers/productController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.product/controllers/productGridController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.product/controllers/productListController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.product/productApp.js" />
-        <option value="$PROJECT_DIR$/backend/magazin.user/controllers/userController.js" />
         <option value="$PROJECT_DIR$/frontend/app/modules/magazin.auth/views/auth.html" />
-        <option value="$PROJECT_DIR$/frontend/app/directives/checkUserDirective.js" />
-        <option value="$PROJECT_DIR$/frontend/app/services/apiFactory.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.auth/authApp.js" />
-        <option value="$PROJECT_DIR$/api/v1/controller/Auth.php" />
-        <option value="$PROJECT_DIR$/api/v1/config/database.php" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.auth/modal/userModal.js" />
-        <option value="$PROJECT_DIR$/frontend/app/controllers/dashboardController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/services/factory.js" />
         <option value="$PROJECT_DIR$/frontend/app/modules/magazin.auth/controllers/authController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/controllers/headerController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/views/headerView.html" />
-        <option value="$PROJECT_DIR$/frontend/app/controllers/homeController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.auth/config/authStates.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/userApp.js" />
-        <option value="$PROJECT_DIR$/frontend/app/views/restricted.html" />
-        <option value="$PROJECT_DIR$/frontend/app/ecommerce/productController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/ecommerce/products_gridController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/ecommerce/products_listController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/ecommerce/productController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/config/userState.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/app.js" />
-        <option value="$PROJECT_DIR$/frontend/app/controllers/main_sidebarController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userEditController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/ecommerce/product_editView.html" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.roles/rolesApp.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.roles/app.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.roles/config/constants.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.auth/services/authService.js" />
-        <option value="$PROJECT_DIR$/frontend/app/app.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/services/services.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.roles/models/RolesService.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userCreateView.html" />
+        <option value="$PROJECT_DIR$/frontend/app/services/factory.js" />
         <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userCreationController.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userListController.js" />
-        <option value="$PROJECT_DIR$/frontend/index.php" />
-        <option value="$PROJECT_DIR$/frontend/app/config/constant.js" />
-        <option value="$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/app.states.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userListView.html" />
+        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userCreateView.html" />
         <option value="$PROJECT_DIR$/frontend/app/config/states.js" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userDetailView.html" />
-        <option value="$PROJECT_DIR$/api/v1/controller/User.php" />
+        <option value="$PROJECT_DIR$/frontend/app/controllers/main_sidebarController.js" />
         <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userEditView.html" />
-        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.roles/models/rolesService.js" />
+        <option value="$PROJECT_DIR$/api/v1/controller/User.php" />
         <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userDetailController.js" />
         <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/services/userService.js" />
+        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/directive/userDirective.js" />
+        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userListView.html" />
+        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userListController.js" />
+        <option value="$PROJECT_DIR$/api/v1/controller/Auth.php" />
+        <option value="$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userDetailView.html" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -249,6 +220,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -277,20 +249,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -310,50 +268,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="translations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShopjektivAngularApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,7 +353,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="directive" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,14 +378,6 @@
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magazin.user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -491,7 +397,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
+              <option name="myItemId" value="directives" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -573,7 +479,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -581,7 +486,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../asif" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="recentsLimit" value="5" />
@@ -603,14 +508,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="840" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript 1.5" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xempp\htdocs\ShopjektivAngularApp\testmodule" />
       <recent name="E:\xampp\htdocs\ShopjektivAngularApp\api\v1\helper" />
       <recent name="E:\xampp\htdocs\ShopjektivAngularApp\api\v1\controller" />
       <recent name="E:\xampp\htdocs\ShopjektivAngularApp\frontend\app\modules\magazin.user\controllers" />
       <recent name="E:\xampp\htdocs\ShopjektivAngularApp\frontend\app\views" />
-      <recent name="E:\xampp\htdocs\ShopjektivAngularApp\frontend\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\xampp\htdocs\ShopjektivAngularApp\frontend\app\modules" />
@@ -635,14 +541,12 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
-      <pass-parent-env-vars>false</pass-parent-env-vars>
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
     </configuration>
@@ -665,18 +569,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28976378" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37165356" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39224806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37554905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29868227" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -736,81 +640,16 @@
           <line>62</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/app/app.js</url>
-          <line>21</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="57" />
+      <option name="time" value="59" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/app/controllers/homeController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30721003" vertical-offset="1245" max-vertical-offset="7072">
-          <caret line="161" column="27" selection-start-line="161" selection-start-column="27" selection-end-line="161" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/views/dashboardView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.330855" vertical-offset="98" max-vertical-offset="3145">
-          <caret line="276" column="56" selection-start-line="276" selection-start-column="55" selection-end-line="276" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/components/ecommerce/productController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1921">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#198#3530#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/views/restricted.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="213">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/components/ecommerce/products_gridController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53543305" vertical-offset="0" max-vertical-offset="381">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app/modules/ecommerce/products_listView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21834862" vertical-offset="0" max-vertical-offset="1411">
           <caret line="7" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/config/userState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7773973" vertical-offset="634" max-vertical-offset="1241">
-          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/views/templates/wizard.tpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="571">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -818,28 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5831874" vertical-offset="1707" max-vertical-offset="6919">
           <caret line="120" column="26" selection-start-line="108" selection-start-column="19" selection-end-line="124" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/controllers/main_sidebarController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44781145" vertical-offset="1077" max-vertical-offset="2125">
-          <caret line="79" column="55" selection-start-line="79" selection-start-column="51" selection-end-line="79" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/components/components/buttonsView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35915494" vertical-offset="0" max-vertical-offset="1224">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="21" selection-end-line="14" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.auth/views/auth.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.653846" vertical-offset="469" max-vertical-offset="1105">
-          <caret line="81" column="45" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -896,57 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44810542" vertical-offset="0" max-vertical-offset="607">
           <caret line="99" column="6" selection-start-line="99" selection-start-column="6" selection-end-line="99" selection-end-column="6" />
-          <folding>
-            <element signature="e#265#2780#0" expanded="false" />
-            <element signature="e#1214#2076#0" expanded="false" />
-            <element signature="e#2791#2937#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/controller/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.038462" vertical-offset="1289" max-vertical-offset="1938">
-          <caret line="108" column="2" selection-start-line="108" selection-start-column="2" selection-end-line="108" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.auth/controllers/authController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.369863" vertical-offset="549" max-vertical-offset="1377">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v1/helper/Authentication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5286738" vertical-offset="164" max-vertical-offset="1462">
-          <caret line="30" column="26" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.auth/services/authService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66952056" vertical-offset="17" max-vertical-offset="816">
-          <caret line="54" column="10" selection-start-line="54" selection-start-column="10" selection-end-line="54" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userCreateView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0679612" vertical-offset="197" max-vertical-offset="986">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userCreationController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1037">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#502#763#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6290">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,21 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.346154" vertical-offset="4" max-vertical-offset="459">
           <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
-          <folding>
-            <element signature="e#945#1242#0" expanded="false" />
-            <element signature="e#1421#1890#0" expanded="false" />
-            <element signature="e#1910#2494#0" expanded="false" />
-            <element signature="e#1924#2098#0" expanded="false" />
-            <element signature="e#2515#3104#0" expanded="false" />
-            <element signature="e#2529#2720#0" expanded="false" />
-            <element signature="e#2734#2906#0" expanded="false" />
-            <element signature="e#2920#3094#0" expanded="false" />
-            <element signature="e#3126#4628#0" expanded="false" />
-            <element signature="e#4648#5762#0" expanded="false" />
-            <element signature="e#5781#11431#0" expanded="false" />
-            <element signature="e#5795#6027#0" expanded="false" />
-            <element signature="e#11449#17256#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -984,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57758623" vertical-offset="326" max-vertical-offset="765">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="24" />
-          <folding>
-            <element signature="e#349#829#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40550458" vertical-offset="1071" max-vertical-offset="2210">
           <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding>
-            <marker date="1447968156115" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.115385" vertical-offset="730" max-vertical-offset="1411">
           <caret line="63" column="69" selection-start-line="63" selection-start-column="69" selection-end-line="63" selection-end-column="69" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26198632" vertical-offset="0" max-vertical-offset="584">
           <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="9169" max-vertical-offset="18428">
           <caret line="550" column="34" selection-start-line="550" selection-start-column="33" selection-end-line="550" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6678899" vertical-offset="503" max-vertical-offset="1071">
           <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-          <folding>
-            <element signature="tag#tbody#0;tag#table#0;tag#div#0;tag#div#0;tag#div#0;tag#div#0;tag#div#1;tag#div#0;tag#div#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,109 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
           <caret line="10" column="10" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#593#1016#0" expanded="false" />
-            <element signature="e#1100#1894#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/config/states.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="640" max-vertical-offset="2108">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-          <folding>
-            <element signature="e#596#2023#0" expanded="false" />
-            <element signature="e#2106#2374#0" expanded="false" />
-            <element signature="e#2454#2606#0" expanded="false" />
-            <element signature="e#2655#3320#0" expanded="false" />
-            <element signature="e#5588#5744#0" expanded="false" />
-            <element signature="e#5809#6420#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userDetailView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5614679" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.02977233" vertical-offset="51" max-vertical-offset="1904">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding>
-            <element signature="e#749#1174#0" expanded="false" />
-            <element signature="e#830#882#0" expanded="false" />
-            <element signature="e#3625#3652#0" expanded="false" />
-            <element signature="e#3692#3759#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userListController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9417808" vertical-offset="861" max-vertical-offset="1513">
-          <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
-          <folding>
-            <element signature="e#784#1241#0" expanded="false" />
-            <element signature="e#2459#2706#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/services/apiFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#87#244#0" expanded="false" />
-            <element signature="e#246#761#0" expanded="false" />
-            <element signature="e#839#1465#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/services/factory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="142" column="15" selection-start-line="142" selection-start-column="12" selection-end-line="142" selection-end-column="18" />
-          <folding>
-            <element signature="e#73#515#0" expanded="false" />
-            <element signature="e#551#3532#0" expanded="false" />
-            <element signature="e#3565#5973#0" expanded="false" />
-            <element signature="e#6309#8863#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/services/service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
-          <folding>
-            <element signature="e#86#816#0" expanded="false" />
-            <element signature="e#845#2526#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.roles/config/constants.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userEditView.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.961538" vertical-offset="214" max-vertical-offset="1054">
-          <caret line="37" column="206" selection-start-line="37" selection-start-column="198" selection-end-line="37" selection-end-column="206" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,60 +783,276 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34075344" vertical-offset="56" max-vertical-offset="663">
           <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userListView.html">
+    <entry file="file://$PROJECT_DIR$/frontend/app/translations/de_DE.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.115385" vertical-offset="197" max-vertical-offset="1003">
-          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-          <folding />
+        <state vertical-scroll-proportion="0.11505922" vertical-offset="0" max-vertical-offset="591">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testmodule/magazin.test/view/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="617">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.roles/models/rolesService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1258">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.roles/config/constants.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/components/components/commonView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7020649" vertical-offset="0" max-vertical-offset="2278">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/components/components/buttonsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1538461" vertical-offset="327" max-vertical-offset="1224">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/altair_v2.0.0/admin/angular/app/components/components/notificationsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6538463" vertical-offset="270" max-vertical-offset="1156">
+          <caret line="23" column="82" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.auth/views/auth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20588236" vertical-offset="0" max-vertical-offset="1734">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/vendor/Slim/Slim.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34775087" vertical-offset="105" max-vertical-offset="23596">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/helper/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4314721" vertical-offset="0" max-vertical-offset="591">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/services/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#86#816#0" expanded="false" />
+            <element signature="e#845#2526#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.auth/controllers/authController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20238096" vertical-offset="0" max-vertical-offset="1955">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/helper/Authentication.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.1174378" vertical-offset="0" max-vertical-offset="1462">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/services/factory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="142" column="28" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="47" />
+          <folding>
+            <element signature="e#73#515#0" expanded="false" />
+            <element signature="e#551#3532#0" expanded="false" />
+            <element signature="e#3565#5973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/config/userState.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7945206" vertical-offset="0" max-vertical-offset="1241">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/controllers/main_sidebarController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5315126" vertical-offset="1073" max-vertical-offset="1989">
+          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/config/states.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3173913" vertical-offset="1180" max-vertical-offset="2652">
+          <caret line="124" column="30" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+          <folding>
+            <element signature="e#2106#2374#0" expanded="false" />
+            <element signature="e#2454#2606#0" expanded="false" />
+            <element signature="e#2655#3320#0" expanded="false" />
+            <element signature="e#4102#4781#0" expanded="false" />
+            <element signature="e#5589#5745#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userCreateView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.auth/services/authService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="606" max-vertical-offset="1326">
+          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-1/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.71850395" vertical-offset="1658" max-vertical-offset="3077">
+          <caret line="119" column="36" selection-start-line="119" selection-start-column="36" selection-end-line="119" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userCreationController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19893429" vertical-offset="330" max-vertical-offset="918">
+          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+          <folding>
+            <element signature="e#586#847#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userDetailController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.0" vertical-offset="283" max-vertical-offset="1037">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.33387357" vertical-offset="797" max-vertical-offset="1564">
+          <caret line="78" column="63" selection-start-line="78" selection-start-column="63" selection-end-line="78" selection-end-column="63" />
           <folding>
-            <element signature="e#661#1253#0" expanded="false" />
-            <element signature="e#1350#1606#0" expanded="false" />
-            <element signature="e#1702#1812#0" expanded="false" />
-            <element signature="e#2380#2441#0" expanded="false" />
+            <element signature="e#1329#1925#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/services/userService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="1870">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        <state vertical-scroll-proportion="-10.310345" vertical-offset="313" max-vertical-offset="901">
+          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
+          <folding>
+            <element signature="e#655#966#0" expanded="false" />
+            <element signature="e#1019#1572#0" expanded="false" />
+            <element signature="e#1626#2280#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2261">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/directive/userDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="731">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userEditView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="11" column="24" selection-start-line="10" selection-start-column="0" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userListView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="561" max-vertical-offset="1190">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/controllers/userListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.896552" vertical-offset="772" max-vertical-offset="1411">
+          <caret line="111" column="58" selection-start-line="111" selection-start-column="58" selection-end-line="111" selection-end-column="58" />
+          <folding>
+            <element signature="e#843#1300#0" expanded="false" />
+            <element signature="e#1885#2197#0" expanded="false" />
+            <element signature="e#2416#3360#0" expanded="false" />
+            <element signature="e#2586#3056#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v1/controller/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.605178" vertical-offset="816" max-vertical-offset="1938">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/v1/controller/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21326165" vertical-offset="170" max-vertical-offset="1105">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#720#1449#1#PHP" expanded="false" />
-            <element signature="e#1498#2703#1#PHP" expanded="false" />
-            <element signature="e#2756#3849#1#PHP" expanded="false" />
-            <element signature="e#3905#4333#1#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-3.709091" vertical-offset="2397" max-vertical-offset="3094">
+          <caret line="153" column="61" selection-start-line="153" selection-start-column="61" selection-end-line="153" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/modules/magazin.user/views/userDetailView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75443786" vertical-offset="561" max-vertical-offset="1275">
+          <caret line="48" column="71" selection-start-line="48" selection-start-column="71" selection-end-line="48" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

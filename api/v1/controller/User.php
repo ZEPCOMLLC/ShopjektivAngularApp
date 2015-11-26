@@ -42,7 +42,8 @@ $app->get('/user/:id', 'mw_auth', function ($id) use ($app) {
             'email' => $user['email'],
             'password' => $user['password'],
             'active' => $user['active'],
-            'role' => $role['role']
+            'last_login' => $user['last_login'],
+            'role' => $role['name']
         );
 
         echoResponse(200, $response);
@@ -61,7 +62,6 @@ $app->post('/user/', 'mw_auth', function () use ($app) {
     $response = array();
     $body = $app->request->getBody();
     $json = json_decode($body, true);
-
     if (isset($json['email']) && isset($json['password']) && isset($json['name'])) {
         $user = ORM::for_table('user')->create();
         $user->set('name', $json['name']);
@@ -88,7 +88,8 @@ $app->post('/user/', 'mw_auth', function () use ($app) {
 
         echoResponse(200, $response);
 
-    } else {
+    }
+    else {
         $response["error"] = true;
         $response["message"] = $json;
         echoResponse(400, $response);

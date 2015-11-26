@@ -15,11 +15,28 @@ angular.module('magazin.frontend.user')
         'UserAuth',
         function ($scope,$rootScope,$stateParams,UserFactory, $location,utils,RolesService,UserService,Auth) {
 
-            $scope.user  = {};
+            $scope.user  =  {}
             $scope.userId = $stateParams.Id;
             $scope.user_role_options_group = [];
             $scope.roles = [];
-            $scope.selected =
+            //$scope.selected =
+
+            UserService.getUserDetail( $scope.userId,Auth.apiKey).then(
+
+                function(response) {
+                    $scope.user = response.data;
+                    $scope.message = response.data.message;
+                    console.log('success');
+                    console.log(response.data);
+                    // $state.go('restricted.user.edit', {'Id': userId});
+                },
+                function (response) {
+                    //do error handling here
+                    $scope.message = response.data.message;
+                    console.log('error');
+                    console.log(response);
+                }
+            );
 
             RolesService.getRoles(Auth.apiKey).then(function(response) {
                 //console.log(res);
@@ -35,50 +52,55 @@ angular.module('magazin.frontend.user')
 
 
 
-                    console.log($scope.user_role_options_group);
-                    console.log($scope.user);
+                   /* console.log($scope.user_role_options_group);
+                    console.log($scope.user);*/
 
 
                 }
             });
-
-
-
-
-
             // serialize form on submit
-            $scope.submitForm = function($event) {
+            $scope.updateUser = function($event) {
                 $event.preventDefault();
                 var form_serialized = JSON.stringify( utils.serializeObject($('#user_edit_form')), null, 2 );
-                UIkit.modal.alert('<p>User data:</p><pre>' + form_serialized + '</pre>');
+               // UIkit.modal.alert('<p>User data:</p><pre>' + form_serialized + '</pre>');
+                var user = JSON.parse(form_serialized);
+                if(user.user_edit_active_control == 'on')
+                {
+                    user.user_edit_active_control = 1;
+                }
+                else{
+                    user.user_edit_active_control = 0;
+                }
+
+                UserService.editUser(Auth.apiKey,user,$scope.userId).then(
+
+
+                    function(response) {
+                        $scope.message = response.data.message;
+                        console.log('success');
+                        $state.go('restricted.user.list');
+                    },
+                    function (response) {
+                        //do error handling here
+                        $scope.message = response.data.message;
+                        console.log('error');
+                        console.log(response);
+                    }
+
+                );
+
             }
-            // callback for ng-click 'updateUser':
-            $scope.updateUser = function () {
-                UserFactory.update($scope.user);
-                $location.path('/user-list');
+            $scope.checkStatus= function(active) {
+
+               if(active = 1)
+               {
+                   $scope.selected = true;
+               }
+               else {
+                   $scope.selected = true;
+               }
+                return $scope.selected;
             };
 
-          //  console.log( $stateParams.Id);
-
-             UserService.getUserDetail($scope.userId,Auth.apiKey).then(function(response) {
-                    //console.log(res);
-                    if (response.error == true) {
-                        console.log('wrong data...');
-                    }
-                    else {
-                        $scope.user = response.data;
-                        console.log( $scope.user);
-
-                    }
-             });
-
-
-
-            // callback for ng-click 'cancel':
-            $scope.cancel = function () {
-                $location.path('/user-list');
-            };
-
-           /// $scope.user = UserFactory.show({id: $routeParams.id});
 
         }])

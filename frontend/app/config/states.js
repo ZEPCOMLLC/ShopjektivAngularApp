@@ -135,6 +135,7 @@ angular
 
                     }
                 })
+
                 // -- E-COMMERCE --
                 .state("restricted.ecommerce", {
                     url: "/ecommerce",
